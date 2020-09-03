@@ -22,5 +22,5 @@ app.get('/', async (req, res) => {
 app.use('/articles', articleRouter)
 
 app.listen(PORT, () => {
-	console.log(`app running on port ${ PORT }`);
+	console.log('app running on port ${ PORT }');
 });
